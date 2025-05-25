@@ -1,0 +1,49 @@
+name: Voting
+version: '1.1'
+main: org.dmitriykotik.voting.Voting
+api-version: '1.21'
+authors: [ dmitriykotik ]
+description: This plugin is designed for voting.
+website: https://dmitriykotik.ru
+commands:
+  poll:
+    description: Voting plugin.
+    usage: /poll
+  vote:
+    description: Voting plugin.
+    usage: /vote <id>
+
+permissions:
+  voting.create:
+    description: Access to the “/poll create” command
+    default: true
+  voting.add:
+    description: Access to the “/poll add” command
+    default: true
+  voting.remove:
+    description: Access to the “/poll remove” command
+    default: true
+  voting.preview:
+    description: Access to the “/poll preview” command
+    default: true
+  voting.result:
+    description: Access to the “/poll result” command
+    default: true
+  voting.clear:
+    description: Access to the “/poll clear” command
+    default: true
+  voting.publish:
+    description: Access to the “/poll publish” command
+    default: true
+  voting.vote:
+    description: Access to the “/poll vote” or "/vote" command
+    default: true
+  voting.help:
+    description: Access to the “/poll help” command
+    default: true
+  voting.delete:
+    description: Access to the “/poll delete” command
+    default: op
+  voting.reload:
+    description: Access to the “/poll reload” command
+    default: op

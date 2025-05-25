@@ -1,0 +1,62 @@
+# __      __   _   _             
+# \ \    / /  | | (_)            
+#  \ \  / /__ | |_ _ _ __   __ _ 
+#   \ \/ / _ \| __| | '_ \ / _` |
+#    \  / (_) | |_| | | | | (_| |
+#     \/ \___/ \__|_|_| |_|\__, |
+#                           __/ |
+#                          |___/ 
+#
+# W A R N I N G: Use the ‘§’ symbol to specify a colour or 
+# colour symbol. For example: ‘§6’. This example outputs the 
+# colour gold. Or ‘§l’. The text will be bold.
+#
+#  ===========- INFO -=============
+#  * File:         | config.yml
+#  * Project:      | Voting
+#  * Author:       | dmitriykotik
+#  * Main file:    | Voting.java
+#  ================================
+
+properties:
+  prefix: '§6§l[Voting]§r'
+
+messages:
+  reload_start: '§c§o[Rebooting the configuration...]'
+  reload_done: '§a§o[Configuration loaded!]'
+
+  command_not_found: '§cДанная команда не обнаружена!'
+  access_denied: '§cУ вас нет прав для выполнения этой команды.'
+  access_denied_help: '§cУ вас нет прав для получения справки.'
+
+  # User commands (Default)
+  help_help: 'Вывести справку'
+  help_create: 'Создать голосование'
+  help_add: 'Добавить элемент к голосованию'
+  help_remove: 'Удалить элемент из голосования'
+  help_clear: 'Удалить все элементы из голосования'
+  help_preview: 'Предпросмотр голосования'
+  help_publish: 'Опубликовать голосование'
+  help_vote: 'Проголосовать в голосовании'
+  help_result: 'Завершить голосование с выводом результатов'
+
+  # Admin commands (Default)
+  help_delete: 'Досрочно завершить голосование'
+  help_reload: 'Перезагрузить конфигурацию плагина'
+
+  poll: '§aГолосование'
+  poll_created_with_id: 'создано с ID'
+  poll_not_found: '§cГолосование не найдено!'
+  poll_element_add: '§aЭлемент добавлен в голосование!'
+  poll_element_remove: '§aЭлемент удалён из голосования!'
+  poll_element_clear: '§aГолосование очищено!'
+  poll_publish: '§aГолосование опубликовано!'
+  poll_already_voted: '§cВы уже проголосовали!'
+  poll_results: '§6Результаты голосования'
+  poll_winners: '§6Победители'
+  poll_delete: '§aГолосование удалено!'
+
+  poll_skip: '§aВы пропустили голосование.'
+  poll_self_vote: '§cВы не можете голосовать за себя!'
+  poll_voted: '§aВы проголосовали за'
+  poll_invalid_element: '§cНеизвестный элемент.'
