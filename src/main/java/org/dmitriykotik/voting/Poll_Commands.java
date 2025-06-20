@@ -89,8 +89,8 @@ public class Poll_Commands implements CommandExecutor {
                 Player sndr = (Player)sender;
 
                 int optionCount = e.options.size();
-                int baseRows   = (optionCount + 1 + 8) / 9;            // сколько рядов нужно для опций (+1 для кнопки Skip)
-                int rows       = Math.min(baseRows + 1, 6);           // +1 — ваш дополнительный ряд, максимум 6 (54 слота)
+                int baseRows   = (optionCount + 1 + 8) / 9;
+                int rows       = Math.min(baseRows + 1, 6);
                 int size       = rows * 9;
 
                 Inventory gui = Bukkit.createInventory(null, size, ChatColor.AQUA + "Preview: " + e.name);
@@ -222,7 +222,7 @@ public class Poll_Commands implements CommandExecutor {
         if (sender.hasPermission("voting.vote")) sender.sendMessage(" §7- §apoll vote <id> §f- §7" + Vars.HelpVote);
         if (sender.hasPermission("voting.result")) sender.sendMessage(" §7- §apoll result <id> §f- §7" + Vars.HelpResult);
         if (sender.hasPermission("voting.delete")) sender.sendMessage(" §7- §apoll delete <id> §f- §7" + Vars.HelpDelete);
-        if (sender.hasPermission("voting.reload")) sender.sendMessage(" §7- §apoll reload <id> §f- §7" + Vars.HelpReload);
+        if (sender.hasPermission("voting.reload")) sender.sendMessage(" §7- §apoll reload §f- §7" + Vars.HelpReload);
         return true;
     }
 
