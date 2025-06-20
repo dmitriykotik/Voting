@@ -1,5 +1,5 @@
 name: Voting
-version: '1.1'
+version: '1.2'
 main: org.dmitriykotik.voting.Voting
 api-version: '1.21'
 authors: [ dmitriykotik ]
