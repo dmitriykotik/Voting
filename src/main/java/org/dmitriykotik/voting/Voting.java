@@ -25,7 +25,7 @@ public final class Voting extends JavaPlugin {
         log.info(" - Initialization of variables...");
         Initialize();
         log.info(" - Done!");
-        log.info(" - Adding commands to the DoorLocker class...");
+        log.info(" - Adding commands to the Voting class...");
         this.getCommand("poll").setExecutor(new Poll_Commands(this));
         this.getCommand("poll").setTabCompleter(new Poll_TabCompleter());
         this.getCommand("vote").setExecutor(new Vote_Commands());
